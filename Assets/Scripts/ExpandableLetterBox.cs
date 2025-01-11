@@ -17,8 +17,12 @@ public class ExpandableLetterBox : MonoBehaviour, IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         GameObject dropped = eventData.pointerDrag;
-        DragDrop letter = dropped.GetComponent<DragDrop>();
-        letter.SetParentAfterDrag(transform);
+        Letter letter = dropped.GetComponent<Letter>();
+        if (letter != null)
+        {
+            DragDrop drag = dropped.GetComponent<DragDrop>();
+            drag.SetParentAfterDrag(transform);
+        }
     }
 
     private void Update()
