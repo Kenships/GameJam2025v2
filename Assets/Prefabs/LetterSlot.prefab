@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3615865414822387932}
   - component: {fileID: -1866780341557730294}
   - component: {fileID: -7664299187070186281}
-  - component: {fileID: 2258814221708522013}
+  - component: {fileID: 3557051952179774051}
   m_Layer: 5
   m_Name: LetterSlot
   m_TagString: Untagged
@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3615865414822387932
 CanvasRenderer:
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings: {fileID: 11400000, guid: d66fc85c0a43b514c831a43669f1adbe, type: 2}
   gridLayoutGroup: {fileID: -1866780341557730294}
---- !u!114 &2258814221708522013
+--- !u!114 &3557051952179774051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
