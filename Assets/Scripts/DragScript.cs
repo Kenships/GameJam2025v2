@@ -4,7 +4,7 @@ using UnityEngine;
 public class MouseFollowWithVelocity : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 0.5f; // Speed at which the object follows the mouse
+    private float speed = 7f; // Speed at which the object follows the mouse
 
     private Rigidbody2D rb;
 
