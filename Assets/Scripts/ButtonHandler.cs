@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class ButtonHandler : MonoBehaviour
 {
-    
+    [SerializeField] private Transform popupHolder;
+    [SerializeField] private GameObject helpPage;
     public void PlayButton(string s)
     {
         switch (s)
@@ -40,6 +41,7 @@ public class ButtonHandler : MonoBehaviour
 
     private void GenerateHelpPage()
     {
-        
+        GameObject popup = Instantiate(helpPage, popupHolder);
+        popup.transform.position += 5 * new Vector3(popupHolder.childCount, popupHolder.childCount, 0);
     }
 }

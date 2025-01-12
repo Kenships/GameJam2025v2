@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 0a723fe932199be4fbb778a7d8625e9d
+guid: bab1f8cd4ee12a847bf60afca243efa3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6977450759382148038
-    second: pointer 200_0
+      213: 4619226367755488322
+    second: button 400 v4 100_0
   - first:
-      213: -9160124795180524793
-    second: pointer 200_1
+      213: 7621122145343038258
+    second: button 400 v4 100_1
   - first:
-      213: 6932692970625448995
-    second: pointer 200_2
+      213: -8501423785827164619
+    second: button 400 v4 100_2
   - first:
-      213: 8892767181537500539
-    second: pointer 200_3
-  - first:
-      213: 6882057334495894509
-    second: pointer 200_4
-  - first:
-      213: -1210740346537934422
-    second: pointer 200_5
-  - first:
-      213: 4909988450611120168
-    second: pointer 200_6
+      213: 558387514804888616
+    second: button 400 v4 100_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -118,155 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pointer 200_0
+      name: button 400 v4 100_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 328
-        width: 32
-        height: 32
+        y: 131
+        width: 129
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4ee7b3a08e4078349be8c5cefa9a2d8b
-      internalID: -349685410
+      spriteID: 24c0f2368e9ca1040800000000000000
+      internalID: 4619226367755488322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pointer 200_1
+      name: button 400 v4 100_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 328
-        width: 32
-        height: 32
+        x: 132
+        y: 151
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 624364f7f2a7b5040b1385b9cdb16bf8
-      internalID: 1157916037
+      spriteID: 233e807763aa3c960800000000000000
+      internalID: 7621122145343038258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pointer 200_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 296
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c026ee0986080434c96efb56084160ce
-      internalID: -46914536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pointer 200_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 296
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c6fa02f1e48e70428ff00ff097b7ddf
-      internalID: -697505805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pointer 200_4
+      name: button 400 v4 100_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 264
-        width: 32
-        height: 32
+        y: 41
+        width: 129
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 35d98409022212041a9abf4eab8255be
-      internalID: -1264689480
+      spriteID: 53e17b8fb10e40a80800000000000000
+      internalID: -8501423785827164619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pointer 200_5
+      name: button 400 v4 100_3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 264
-        width: 32
-        height: 32
+        x: 132
+        y: 103
+        width: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8d203f4dfbd956b458f9d76d3481572e
-      internalID: -687297211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pointer 200_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 264
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3442f10988020884b943af6945dce2ed
-      internalID: -1208050420
+      spriteID: 82465fa7c7acfb700800000000000000
+      internalID: 558387514804888616
       vertices: []
       indices: 
       edges: []
@@ -275,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 35a7e99d83595cf4cab1f4b1c3d6ac5d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -284,14 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      pointer 200_0: -349685410
-      pointer 200_1: 1157916037
-      pointer 200_2: -46914536
-      pointer 200_3: -697505805
-      pointer 200_4: -1264689480
-      pointer 200_5: -687297211
-      pointer 200_6: -1208050420
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
