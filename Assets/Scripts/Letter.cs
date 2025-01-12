@@ -16,11 +16,10 @@ public class Letter : MonoBehaviour
         rectTransform.sizeDelta = new Vector2(letterSettings.cellSize, letterSettings.cellSize);
     }
 
-    public void SetLetter(int letterInt)
+    public void SetLetter(LetterType letterType)
     {
-        LetterType letterType = (LetterType) letterInt;
         letter = letterType;
-        image.sprite = letterSprites[letterInt];
+        image.sprite = letterSprites[(int) letterType];
     }
 
     public string GetLetter()

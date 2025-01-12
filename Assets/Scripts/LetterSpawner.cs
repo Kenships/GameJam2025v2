@@ -8,8 +8,7 @@ public class LetterSpawner : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Letter letter = Instantiate(letterPrefab, transform).GetComponent<Letter>();
-            letter.SetLetter(Random.Range(0, 25));
+            letter.SetLetter((LetterType) Random.Range(0, 25));
         }
-        
     }
 }

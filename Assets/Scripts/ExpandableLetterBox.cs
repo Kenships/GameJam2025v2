@@ -4,20 +4,29 @@ using System.Text;
 using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class ExpandableLetterBox : MonoBehaviour, IDropHandler
 {
-    [SerializeField] private LetterSettingsSO settings;
+    [SerializeField] private LetterSettingsSO cellSize;
+    [SerializeField] private LetterSettingsSO letterSize;
     [SerializeField] private GridLayoutGroup gridLayoutGroup;
     [SerializeField] private RectTransform rectTransform;
     [SerializeField] private int columns;
     [SerializeField] private string word;
+    [SerializeField] private GameObject checkBox;
     private int amountOfChildern;
     private void Start()
     {
-        gridLayoutGroup.cellSize = new Vector2(settings.cellSize, settings.cellSize);
-        rectTransform.sizeDelta = new Vector2(settings.cellSize* columns, settings.cellSize);
+        gridLayoutGroup.cellSize = new Vector2(letterSize.cellSize, letterSize.cellSize);
+        rectTransform.sizeDelta = new Vector2(cellSize.cellSize* columns, cellSize.cellSize);
+        var rect = rectTransform.rect;
+        Vector3 pos = rectTransform.position;
+        pos.x += cellSize.cellSize * (columns/2 + 1);
+        RectTransform box = checkBox.GetComponent<RectTransform>();
+        box.SetPositionAndRotation(pos, Quaternion.identity);
+        box.sizeDelta = new Vector2(cellSize.cellSize, cellSize.cellSize);
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -51,5 +60,10 @@ public class ExpandableLetterBox : MonoBehaviour, IDropHandler
             amountOfChildern = transform.childCount;
         }
         
+    }
+
+    public String GetWord()
+    {
+        return word;
     }
 }
