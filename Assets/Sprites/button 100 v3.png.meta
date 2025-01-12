@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +57,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -113,11 +113,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 131
-        width: 129
-        height: 49
+        y: 132
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,13 +134,13 @@ TextureImporter:
       name: button 100 v3_1
       rect:
         serializedVersion: 2
-        x: 132
-        y: 151
-        width: 24
-        height: 26
+        x: 48
+        y: 148
+        width: 48
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 6, z: 4, w: 8}
       customData: 
       outline: []
       physicsShape: []
@@ -156,13 +156,13 @@ TextureImporter:
       name: button 100 v3_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 83
-        width: 129
-        height: 49
+        x: 96
+        y: 148
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 6, z: 4, w: 8}
       customData: 
       outline: []
       physicsShape: []
@@ -175,23 +175,111 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button 100 v3_3
+      name: button 100 v3_4
       rect:
         serializedVersion: 2
-        x: 132
-        y: 103
-        width: 24
-        height: 25
+        x: 0
+        y: 84
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 357dca3446b042fd0800000000000000
-      internalID: -2367754978830002349
+      spriteID: 56cc02f2c0272234fad20b181fdb84f1
+      internalID: -165144993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button 100 v3_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 100
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 5, z: 4, w: 8}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbc8b08bce45524795d88d04287df70
+      internalID: 802407480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button 100 v3_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 100
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 5, z: 4, w: 8}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d085fa198e2bc148a25546df7cd196b
+      internalID: -1770443045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button 100 v3_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 104
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 7}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5369d47cb2a90e429813cdf652234b5
+      internalID: -1015773428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button 100 v3_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 152
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 6, z: 5, w: 6}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9e8881328e63c4cbd69af8db05e1e8
+      internalID: -544783784
       vertices: []
       indices: 
       edges: []
@@ -200,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 56fd0be68cd5155459f3dc1e4ef54ae5
     internalID: 0
     vertices: []
     indices: 
@@ -209,7 +297,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      button 100 v3_0: -86661327921500261
+      button 100 v3_1: -4161654270610397799
+      button 100 v3_2: -821257566444824249
+      button 100 v3_3: -2367754978830002349
+      button 100 v3_4: -165144993
+      button 100 v3_5: 802407480
+      button 100 v3_6: -1770443045
+      button 100 v3_7: -1015773428
+      button 100 v3_8: -544783784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
