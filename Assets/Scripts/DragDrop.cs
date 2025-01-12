@@ -8,11 +8,15 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     [SerializeField] Image image;
     private Transform parentAfterDrag;
     [SerializeField] Transform screen;
+    public AudioClip LetterGrabSound;
+    public AudioClip LetterDropSound;
+    public AudioSource audioSource;
 
     public void Start()
     {
         if (screen == null)
             screen = transform.parent.parent;
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
     
     public void OnBeginDrag(PointerEventData eventData)
@@ -27,6 +31,8 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     {
         Debug.Log("OnDrag");
         transform.position = Input.mousePosition;
+        audioSource.clip = LetterGrabSound;
+        audioSource.Play();
 
     }
     public void OnEndDrag(PointerEventData eventData)
@@ -34,6 +40,8 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
         Debug.Log("OnEndDrag");
         transform.SetParent(parentAfterDrag);
         image.raycastTarget = true;
+        audioSource.clip = LetterDropSound;
+        audioSource.Play();
     }
 
     public void SetParentAfterDrag(Transform parent)
