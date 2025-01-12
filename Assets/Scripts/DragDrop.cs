@@ -7,13 +7,18 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     [SerializeField] RectTransform rectTransform;
     [SerializeField] Image image;
     private Transform parentAfterDrag;
-    
+    private Transform screen;
+
+    public void Start()
+    {
+        screen = transform.parent.parent;
+    }
     
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("OnBeginDrag");
-        SetParentAfterDrag(transform.root);
-        transform.SetParent(transform.root);
+        SetParentAfterDrag(screen);
+        transform.SetParent(screen);
         transform.SetAsLastSibling();
         image.raycastTarget = false;
     }
