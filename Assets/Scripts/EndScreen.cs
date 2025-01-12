@@ -7,7 +7,7 @@ public class EndScreen : MonoBehaviour
     [SerializeField] private Image image;
     private void Start()
     {
-        Invoke(nameof(SetSprite), 2f);
+        Invoke(nameof(SetSprite), 1f);
     }
 
     private void SetSprite()
