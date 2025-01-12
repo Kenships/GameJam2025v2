@@ -5,6 +5,19 @@ using Random = UnityEngine.Random;
 
 public class GachaManager: MonoBehaviour
 {
+    public static GachaManager Instance{get; private set;}
+
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     public enum Rarity
     {
         Legendary,

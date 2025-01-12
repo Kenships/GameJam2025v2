@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rectTransform: {fileID: 8429671746459163134}
-  letterSettings: {fileID: 11400000, guid: d66fc85c0a43b514c831a43669f1adbe, type: 2}
+  letterSettings: {fileID: 11400000, guid: 392353e245e7ae04fa9fb80f4b94af59, type: 2}
   image: {fileID: 1580192766095021080}
   letterSprites: {fileID: 11400000, guid: 4b68d81fdf378c940a1dd541daf7165a, type: 2}
   letterSpritesPlaceholder: {fileID: 11400000, guid: 6aaa7bdcd2184714482eb4d4422a7a83, type: 2}
