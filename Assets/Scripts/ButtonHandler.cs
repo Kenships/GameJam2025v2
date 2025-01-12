@@ -3,21 +3,43 @@ using UnityEngine;
 
 public class ButtonHandler : MonoBehaviour
 {
-    public ButtonHandler Instance;
-    private void Start()
+    
+    public void PlayButton(string s)
     {
-        if (Instance == null)
+        switch (s)
         {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(this);
+            case "CLOSE":
+                case "EXIT":
+                case "QUIT":
+                case "KILL":
+                Application.Quit();
+                break;
+            
+            case "HINT":
+                case "HELP":
+                case "CLUE":
+                    GenerateHelpPage();
+                    break;
+            
+            case "SETTINGS":
+                case "OPTIONS":
+                    GenerateOptionsPage();
+                    break;
+            
+            case "GACHA":
+                case "SHOP":
+                    
+                    break;
         }
     }
 
-    public void PlayButton(string s)
+    private void GenerateOptionsPage()
     {
-        Debug.Log(s);
+        
+    }
+
+    private void GenerateHelpPage()
+    {
+        
     }
 }

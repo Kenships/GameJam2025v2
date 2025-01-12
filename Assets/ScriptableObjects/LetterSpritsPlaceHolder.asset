@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2659692ca8bd9348b21d294dde03d1b, type: 3}
+  m_Name: LetterSpritsPlaceHolder
+  m_EditorClassIdentifier: 
+  spriteList:
+  - {fileID: -1751780039, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -467103558, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -33272370, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 1327249536, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 1096313334, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 93733483, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -799295170, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 791742280, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -188383445, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 254188253, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -1949313525, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -1636779595, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 160774494, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -502452557, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 666020150, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -274916961, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 1006979554, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 1323125847, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 1740515778, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -1355857492, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -73754152, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 1375166618, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 1393284448, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -161247773, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: -118705993, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  - {fileID: 1980029914, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}

@@ -11,6 +11,7 @@ public class ButtonSpawner : MonoBehaviour
     [SerializeField] private LetterSettingsSO letterSize;
     [SerializeField] private ExpandableLetterBox expandableLetterBox;
     [SerializeField] private WordLibrarySO wordLibrary;
+    [SerializeField] private ButtonPressEvent pressEvent;
 
     public void Start()
     {
@@ -27,5 +28,6 @@ public class ButtonSpawner : MonoBehaviour
             ButtonScript button = Instantiate(buttonScript, rectTransform);
             button.SetString(word);
         }
+        pressEvent.RaiseEvent(word);
     }
 }
