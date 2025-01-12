@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -9,11 +10,12 @@ public class Letter : MonoBehaviour
     [SerializeField] private LetterSettingsSO letterSettings;
     [SerializeField] private Image image;
     [SerializeField] List<Sprite> letterSprites;
-    private LetterType letter;
+    [SerializeField] private LetterType letter;
 
     public void Start()
     {
         rectTransform.sizeDelta = new Vector2(letterSettings.cellSize, letterSettings.cellSize);
+        SetLetter(letter);
     }
 
     public void SetLetter(LetterType letterType)
@@ -27,7 +29,7 @@ public class Letter : MonoBehaviour
         return letter.ToString();
     }
 }
-
+[Serializable]
 public enum LetterType{
     A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
 }

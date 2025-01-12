@@ -10,7 +10,7 @@ public class ButtonScript : MonoBehaviour
     [SerializeField] private LetterSettingsSO cellSize;
     [SerializeField] private LetterSettingsSO letterSize;
     [SerializeField] private string buttonText;
-    
+    [SerializeField] private ButtonPressEvent pressEvent;
     public void SetString(string inputString)
     {
         buttonText = inputString;
@@ -22,5 +22,10 @@ public class ButtonScript : MonoBehaviour
 
         rectTransform.sizeDelta = new Vector2(cellSize.cellSize * 10, cellSize.cellSize);
         gridLayoutGroup.cellSize = new Vector2(letterSize.cellSize, letterSize.cellSize);
+    }
+
+    public void InvokeButtonEvent()
+    {
+        pressEvent.RaiseEvent(buttonText);
     }
 }
