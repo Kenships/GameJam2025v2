@@ -1,2 +1,17 @@
 fileFormatVersion: 2
 guid: 819f97b1fb9d4504d9f9aba5d1ca707f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rectTransform: {instanceID: 0}
+  - image: {instanceID: 0}
+  - screen: {instanceID: 0}
+  - LetterGrabSound: {fileID: 8300000, guid: bf2fffab170f84aee9765bab0f14899b, type: 3}
+  - LetterDropSound: {fileID: 8300000, guid: afe6367c23df04d38a29c48830655595, type: 3}
+  - audioSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
