@@ -52,32 +52,16 @@ public class GachaManager: MonoBehaviour
         // add letters here!
         gachaLetters = new List<GachaLetter>
         {
-            new() { Letter = "A", rarity = Rarity.Rare },
-            new() { Letter = "B", rarity = Rarity.Rare },
-            new() { Letter = "C", rarity = Rarity.Rare },
-            new() { Letter = "D", rarity = Rarity.Rare },
             new() { Letter = "E", rarity = Rarity.Common },
-            new() { Letter = "F", rarity = Rarity.Rare },
             new() { Letter = "G", rarity = Rarity.Common },
-            new() { Letter = "H", rarity = Rarity.Rare },
             new() { Letter = "I", rarity = Rarity.Common },
-            new() { Letter = "J", rarity = Rarity.Rare },
-            new() { Letter = "K", rarity = Rarity.Rare },
-            new() { Letter = "L", rarity = Rarity.Rare },
-            new() { Letter = "M", rarity = Rarity.Rare },
             new() { Letter = "N", rarity = Rarity.Common },
             new() { Letter = "O", rarity = Rarity.Common },
             new() { Letter = "P", rarity = Rarity.Common },
-            new() { Letter = "Q", rarity = Rarity.Rare },
             //new GachaLetter { Letter = "R", rarity = Rarity.Common },
             new() { Letter = "S", rarity = Rarity.Common },
             new() { Letter = "T", rarity = Rarity.Common },
-            new() { Letter = "U", rarity = Rarity.Rare },
-            new() { Letter = "V", rarity = Rarity.Rare },
-            new() { Letter = "W", rarity = Rarity.Rare },
-            new() { Letter = "X", rarity = Rarity.Rare },
             //new GachaLetter { Letter = "Y", rarity = Rarity.Common },
-            new GachaLetter { Letter = "Z", rarity = Rarity.Common },
         };
     }
     public void GetRandomGachaLetter()
@@ -86,7 +70,7 @@ public class GachaManager: MonoBehaviour
         List<GachaLetter> availableLetters = gachaLetters.FindAll(letter => letter.rarity == randomRarity);
         if (availableLetters.Count == 0) randomRarity = Rarity.Common;
         availableLetters = gachaLetters.FindAll(letter => letter.rarity == randomRarity);
-        int randomIndex = Random.Range(0, availableLetters.Count - 1);
+        int randomIndex = Random.Range(0, availableLetters.Count);
         if (availableLetters.Count == 0)
         {
             return;
@@ -117,7 +101,8 @@ public class GachaManager: MonoBehaviour
 
     public void AddRYLetters()
     {
-        gachaLetters.Add(new() {Letter = "R", rarity = Rarity.Legendary}); 
-        gachaLetters.Add(new() {Letter = "Y", rarity = Rarity.Legendary}); 
+        gachaLetters.Clear();
+        gachaLetters.Add(new() {Letter = "R", rarity = Rarity.Common}); 
+        gachaLetters.Add(new() {Letter = "Y", rarity = Rarity.Common}); 
     }
 }
