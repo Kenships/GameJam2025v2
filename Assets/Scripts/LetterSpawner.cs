@@ -3,12 +3,10 @@ using UnityEngine;
 public class LetterSpawner : MonoBehaviour
 {
     [SerializeField] GameObject letterPrefab;
-    private void Update()
+
+    public void SpawnLetter(string letter)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Letter letter = Instantiate(letterPrefab, transform).GetComponent<Letter>();
-            letter.SetLetter((LetterType) Random.Range(0, 25));
-        }
+        Letter letterSpawn = Instantiate(letterPrefab, transform).GetComponent<Letter>();
+        letterSpawn.SetLetter((LetterType)(letter[0] - 'A'));
     }
 }
