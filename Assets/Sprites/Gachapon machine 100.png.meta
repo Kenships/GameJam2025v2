@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9268d87a3b2c87d4b86d2d60dac39e03
+guid: 6fd01a39b874a4e8292b6b57ca589a19
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1399350708948910537
-    second: button 100_0
+      213: 1054030571677565395
+    second: Gachapon machine 100_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button 100_0
+      name: Gachapon machine 100_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 131
-        width: 49
-        height: 49
+        y: 138
+        width: 32
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73eb8ecb1f1849ce0800000000000000
-      internalID: -1399350708948910537
+      spriteID: bf7c126ac34704cec85898798f6d3c5e
+      internalID: -2034369193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gachapon machine 100_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 138
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4607027dfb24191bdc0acda1f700d6
+      internalID: 1945221772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gachapon machine 100_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 138
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7da862543f144d0b93e8f20588cf0ad
+      internalID: -1173759020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gachapon machine 100_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 138
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b090e49c323ed47638aa61a023af431d
+      internalID: -145960703
       vertices: []
       indices: 
       edges: []
@@ -125,7 +191,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 96e18df738b4d46c9a61947c4de79e81
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +201,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      button 100_0: -1399350708948910537
+      Gachapon machine 100_0: -2034369193
+      Gachapon machine 100_1: 1945221772
+      Gachapon machine 100_2: -1173759020
+      Gachapon machine 100_3: -145960703
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
