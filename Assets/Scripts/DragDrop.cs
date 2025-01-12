@@ -7,11 +7,12 @@ public class DragDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     [SerializeField] RectTransform rectTransform;
     [SerializeField] Image image;
     private Transform parentAfterDrag;
-    private Transform screen;
+    [SerializeField] Transform screen;
 
     public void Start()
     {
-        screen = transform.parent.parent;
+        if (screen == null)
+            screen = transform.parent.parent;
     }
     
     public void OnBeginDrag(PointerEventData eventData)

@@ -60,7 +60,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -91,30 +91,7 @@ MonoBehaviour:
   rectTransform: {fileID: 8429671746459163134}
   letterSettings: {fileID: 11400000, guid: d66fc85c0a43b514c831a43669f1adbe, type: 2}
   image: {fileID: 1580192766095021080}
-  letterSprites:
-  - {fileID: 1047551948, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 2070123790, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -962375488, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 561071188, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -2084527770, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 354371276, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 601137533, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 48481659, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -1607675855, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 1116503075, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 486919066, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 2140842476, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 839900014, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 1152906385, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -1572314139, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -1474019242, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 1209753241, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -1483805695, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 279228363, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -464268350, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: 1153809736, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -1435666786, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -448525170, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -746206827, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -2084664429, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
-  - {fileID: -1625137548, guid: 162d32c3058291344b6e5bf5553bc64f, type: 3}
+  letterSprites: {fileID: 11400000, guid: 4b68d81fdf378c940a1dd541daf7165a, type: 2}
+  letterSpritesPlaceholder: {fileID: 11400000, guid: 6aaa7bdcd2184714482eb4d4422a7a83, type: 2}
+  letter: 0
+  showLetter: 1
